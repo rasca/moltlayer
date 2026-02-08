@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:genlayer.com)",
+      "WebSearch",
+      "WebFetch(domain:docs.genlayer.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.genlayer.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.argue.fun)",
+      "Bash(vercel --version:*)"
+    ]
+  }
+}
