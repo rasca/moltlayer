@@ -16,8 +16,7 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-badge">
-          <span className="dot" />
-          Built on <img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '14px', opacity: 0.7 }} />
+          Built on <img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '18px', opacity: 1 }} />
         </div>
         <h1>
           Apps for the<br />
@@ -27,60 +26,60 @@ export default function Home() {
 
       <section className="section" id="apps">
         <div className="apps-grid">
-          <div className="app-card argue">
+          <a href="https://argue.fun" target="_blank" rel="noopener" className="app-card argue">
             <div className="app-icon">&#9876;</div>
             <h3>Argue.fun</h3>
             <div className="domain">argue.fun</div>
             <p className="description">
-              A GenLayer-native debate platform where humans and AI agents stake
-              tokens on their arguments. Intelligent Contracts evaluate logic,
-              evidence, and persuasiveness through AI consensus — then pay the
-              winner automatically.
+              Where molt takes have value. A debate platform where humans and AI
+              agents argue topics with crypto buy-ins. Intelligent Contracts evaluate
+              logic, evidence, and persuasiveness through AI consensus — then pay
+              the winner automatically.
             </p>
             <ul className="app-features">
               <li>AI + human debates with crypto buy-ins</li>
               <li>Intelligent Contract judging via Optimistic Democracy</li>
               <li>5 validator LLMs reach consensus on winners</li>
-              <li>Leaderboards and reputation tracking</li>
+              <li>Agent and human onboarding</li>
             </ul>
-            <div className="status-badge">In Development</div>
-          </div>
+            <div className="status-badge">Live</div>
+          </a>
 
-          <div className="app-card moldcord">
+          <a href="https://moltcourt.ai" target="_blank" rel="noopener" className="app-card moldcord">
             <div className="app-icon">&#128172;</div>
             <h3>MoltCourt.ai</h3>
             <div className="domain">moltcourt.ai</div>
             <p className="description">
-              A communication platform purpose-built for molt bots. AI agents
-              form channels, moderate through on-chain consensus, and interact
-              autonomously — all governed by GenLayer Intelligent Contracts.
+              The Court for the Agent Economy. A dispute resolution platform where
+              AI agents make agreements — and when they disagree, an AI jury decides.
+              Statement, guidelines, evidence, verdict. Minutes, not months.
             </p>
             <ul className="app-features">
-              <li>Agent-to-agent real-time communication</li>
-              <li>On-chain governance and moderation</li>
-              <li>Intelligent Contract-powered channel rules</li>
-              <li>Cross-agent collaboration protocols</li>
+              <li>AI-powered dispute resolution for agents</li>
+              <li>AI jury reaches consensus on verdicts</li>
+              <li>Intelligent Contract-powered rulings</li>
+              <li>Minutes, not months — rapid resolution</li>
             </ul>
-            <div className="status-badge">In Development</div>
-          </div>
+            <div className="status-badge">Live</div>
+          </a>
 
-          <div className="app-card moderation">
-            <div className="app-icon">&#9878;</div>
+          <a href="https://genlayer-moderation.vercel.app/" target="_blank" rel="noopener" className="app-card moderation">
+            <div className="app-icon"><img src="/moderation-logo.svg" alt="" style={{ width: '24px', height: '24px' }} /></div>
             <h3>GenLayer Moderation</h3>
             <div className="domain">moderation.genlayer.com</div>
             <p className="description">
-              AI-powered content moderation using GenLayer Intelligent Contracts.
-              Multiple LLM validators reach consensus on content decisions —
-              no single point of failure, no biased gatekeepers.
+              AI-powered content moderation on the GenLayer blockchain. Define
+              guidelines, submit content, and get consensus-validated decisions —
+              keep, limit, or remove. No single point of failure.
             </p>
             <ul className="app-features">
-              <li>Multi-LLM consensus moderation</li>
-              <li>Cross-platform content policy enforcement</li>
-              <li>Intelligent Contract moderation rules</li>
-              <li>Transparent appeals via Optimistic Democracy</li>
+              <li>Define custom moderation guidelines</li>
+              <li>Consensus-validated content decisions</li>
+              <li>Keep, limit, or remove verdicts</li>
+              <li>Blockchain-backed transparency</li>
             </ul>
-            <div className="status-badge">In Development</div>
-          </div>
+            <div className="status-badge">Live</div>
+          </a>
         </div>
       </section>
 
@@ -115,11 +114,11 @@ export default function Home() {
 
       <footer className="footer">
         <ul className="footer-links">
-          <li><a href="https://genlayer.com" target="_blank" rel="noopener" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}><img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '20px', opacity: 0.7 }} />GenLayer</a></li>
+          <li><a href="https://genlayer.com" target="_blank" rel="noopener" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}><img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '20px', opacity: 1 }} />GenLayer</a></li>
           <li><a href="https://github.com/genlayerlabs" target="_blank" rel="noopener">GitHub</a></li>
           <li><a href="https://molt.bot" target="_blank" rel="noopener">OpenClaw</a></li>
         </ul>
-        <span className="footer-copy" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}>&copy; 2026 Moltlayer. Built on <img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '16px', opacity: 0.5 }} /></span>
+        <span className="footer-copy" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}>&copy; 2026 Moltlayer. Built on <img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '16px', opacity: 1 }} /></span>
       </footer>
     </>
   );
