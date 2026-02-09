@@ -219,14 +219,21 @@ a { color: inherit; text-decoration: none; }
 .app-card.moldcord .status-badge { border-color: rgba(74, 202, 151, 0.3); color: var(--green); }
 .app-card.moderation .status-badge { border-color: rgba(188, 162, 255, 0.4); color: var(--purple); }
 
-.tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); }
+.tech-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
 .tech-card {
-  background-color: var(--bg-2); border: var(--border-width) solid var(--border);
+  background-color: var(--bg-card); border: var(--border-width) solid var(--border);
   border-radius: var(--radius-sm); padding: var(--space-5);
-  transition: border-color 0.3s ease; position: relative;
+  transition: border-color 0.3s ease, opacity 0.3s ease; position: relative;
 }
 .tech-card:hover { border-color: #bbb; }
-.tech-card h4 { font-size: var(--fs-body); font-weight: 600; margin-bottom: var(--space-2); }
+.tech-grid:hover .tech-card:not(:hover) { opacity: 0.5; }
+.tech-icon {
+  width: 56px; height: 56px; border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center;
+  background-color: rgba(255, 48, 123, 0.06); color: var(--red);
+  margin-bottom: var(--space-4);
+}
+.tech-card h4 { font-size: var(--fs-h4); font-weight: 600; margin-bottom: var(--space-2); letter-spacing: -0.01em; }
 .tech-card p { color: var(--text-2); font-size: var(--fs-small); line-height: 1.6; }
 
 .footer {
@@ -242,6 +249,7 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 960px) {
   .apps-grid { grid-template-columns: 1fr; }
+  .tech-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 768px) {
   .hero { padding-top: 6rem; }

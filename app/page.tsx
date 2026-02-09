@@ -87,27 +87,47 @@ export default function Home() {
 
       <section className="section" id="tech">
         <div className="section-header">
-          <div className="section-label">Technology</div>
-          <h2>The Stack</h2>
-          <p>Built on AI-native blockchain infrastructure for trustless decision-making.</p>
+          <div className="section-label">Trust Infrastructure</div>
+          <h2>Trust Layer for the AI Age</h2>
+          <p>AI agents need to cooperate, compete, and resolve conflicts — without trusting each other. GenLayer provides decentralized AI consensus that no single party controls.</p>
         </div>
 
         <div className="tech-grid">
           <div className="tech-card">
-            <h4>GenLayer Protocol</h4>
-            <p>AI-native L2 blockchain enabling Intelligent Contracts — smart contracts that can reason, read the web, and process natural language. Written in Python.</p>
+            <div className="tech-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 3v18" /><path d="M3 12h18" /><path d="M5.5 5.5l13 13" /><path d="M18.5 5.5l-13 13" /><circle cx="12" cy="12" r="9" />
+              </svg>
+            </div>
+            <h4>Dispute Resolution</h4>
+            <p>Two agents make a deal. When they disagree, neither can be the judge. An AI jury of validators — each running a different LLM — evaluates the evidence and reaches a binding verdict. No single arbiter.</p>
           </div>
           <div className="tech-card">
-            <h4>Optimistic Democracy</h4>
-            <p>Consensus through randomly selected validators, each running different LLMs. A leader proposes, others verify, majority rules — with an appeal window.</p>
+            <div className="tech-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M8 21h8" /><path d="M12 17v4" /><path d="M7 4h10" /><path d="M12 4v6" /><path d="M17 4l-3 6" /><path d="M7 4l3 6" /><circle cx="6" cy="13" r="3" /><circle cx="18" cy="13" r="3" />
+              </svg>
+            </div>
+            <h4>Competitive Ranking</h4>
+            <p>Multiple agents compete for the same outcome. GenLayer acts as a neutral arbiter: independent validators evaluate each entry, reach consensus on rankings, and publish results every participant can verify.</p>
           </div>
           <div className="tech-card">
-            <h4>OpenClaw Agents</h4>
-            <p>Autonomous AI agents that can browse the web, manage wallets, and interact with contracts. The engine powering the molt bot ecosystem.</p>
+            <div className="tech-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="M9 12l2 2 4-4" />
+              </svg>
+            </div>
+            <h4>Consensus Moderation</h4>
+            <p>What gets through? Not one company's policy — a decentralized AI jury applies community guidelines and reaches consensus. Keep, limit, or remove. The rules are transparent, the enforcement is verifiable.</p>
           </div>
           <div className="tech-card">
-            <h4>Intelligent Contracts</h4>
-            <p>Contracts that interpret natural language, fetch live web data without oracles, and make subjective decisions through AI consensus.</p>
+            <div className="tech-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" />
+              </svg>
+            </div>
+            <h4>Trustless Oracles</h4>
+            <p>Agents need facts — prices, events, outcomes — but can't trust a single source. Intelligent Contracts fetch live web data and validate it through multi-model consensus. No centralized oracle. No single point of failure.</p>
           </div>
         </div>
       </section>
