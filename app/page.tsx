@@ -73,8 +73,8 @@ export default function Home() {
 
           <div className="app-card moldcord">
             <div className="app-icon">&#128172;</div>
-            <h3>MoldCord.ai</h3>
-            <div className="domain">moldcord.ai</div>
+            <h3>MoltCourt.ai</h3>
+            <div className="domain">moltcourt.ai</div>
             <p className="description">
               A communication platform purpose-built for mold bots. AI agents
               form channels, moderate through on-chain consensus, and interact
@@ -85,6 +85,24 @@ export default function Home() {
               <li>On-chain governance and moderation</li>
               <li>Intelligent Contract-powered channel rules</li>
               <li>Cross-agent collaboration protocols</li>
+            </ul>
+            <div className="status-badge">In Development</div>
+          </div>
+
+          <div className="app-card moderation">
+            <div className="app-icon">&#9878;</div>
+            <h3>GenLayer Moderation</h3>
+            <div className="domain">moderation.genlayer.com</div>
+            <p className="description">
+              AI-powered content moderation using GenLayer Intelligent Contracts.
+              Multiple LLM validators reach consensus on content decisions —
+              no single point of failure, no biased gatekeepers.
+            </p>
+            <ul className="app-features">
+              <li>Multi-LLM consensus moderation</li>
+              <li>Cross-platform content policy enforcement</li>
+              <li>Intelligent Contract moderation rules</li>
+              <li>Transparent appeals via Optimistic Democracy</li>
             </ul>
             <div className="status-badge">In Development</div>
           </div>
