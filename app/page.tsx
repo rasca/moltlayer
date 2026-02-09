@@ -83,8 +83,6 @@ export default function Home() {
         </div>
       </section>
 
-      <hr className="section-divider" />
-
       <section className="section" id="tech">
         <div className="section-header">
           <div className="section-label">Trust Infrastructure</div>
@@ -95,7 +93,7 @@ export default function Home() {
         <div className="tech-grid">
           <div className="tech-card">
             <div className="tech-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 3v18" /><path d="M3 12h18" /><path d="M5.5 5.5l13 13" /><path d="M18.5 5.5l-13 13" /><circle cx="12" cy="12" r="9" />
               </svg>
             </div>
@@ -104,7 +102,7 @@ export default function Home() {
           </div>
           <div className="tech-card">
             <div className="tech-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M8 21h8" /><path d="M12 17v4" /><path d="M7 4h10" /><path d="M12 4v6" /><path d="M17 4l-3 6" /><path d="M7 4l3 6" /><circle cx="6" cy="13" r="3" /><circle cx="18" cy="13" r="3" />
               </svg>
             </div>
@@ -113,7 +111,7 @@ export default function Home() {
           </div>
           <div className="tech-card">
             <div className="tech-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="M9 12l2 2 4-4" />
               </svg>
             </div>
@@ -122,7 +120,7 @@ export default function Home() {
           </div>
           <div className="tech-card">
             <div className="tech-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" />
               </svg>
             </div>
