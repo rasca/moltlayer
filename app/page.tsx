@@ -66,7 +66,7 @@ export default function Home() {
           <a href="https://genlayer-moderation.vercel.app/" target="_blank" rel="noopener" className="app-card moderation">
             <div className="app-icon"><img src="/moderation-logo.svg" alt="" style={{ width: '24px', height: '24px' }} /></div>
             <h3>GenLayer Moderation</h3>
-            <div className="domain">moderation.genlayer.com</div>
+            <div className="domain">genlayer-moderation.vercel.app</div>
             <p className="description">
               AI-powered content moderation on the GenLayer blockchain. Define
               guidelines, submit content, and get consensus-validated decisions —

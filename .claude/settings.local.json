@@ -17,7 +17,10 @@
       "WebFetch(domain:assets-global.website-files.com)",
       "WebFetch(domain:cdn.prod.website-files.com)",
       "Bash(tmux send-keys:*)",
-      "Bash(tmux capture-pane:*)"
+      "Bash(tmux capture-pane:*)",
+      "WebFetch(domain:argue.fun)",
+      "WebFetch(domain:moltcourt.ai)",
+      "WebFetch(domain:genlayer-moderation.vercel.app)"
     ]
   }
 }
