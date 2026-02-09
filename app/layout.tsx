@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Moldlayer — GenLayer-Powered Mold Bot Apps",
+  title: "Moltlayer — GenLayer-Powered Molt Bot Apps",
   description: "Showcasing apps built at the intersection of GenLayer Intelligent Contracts and OpenClaw autonomous agents.",
   openGraph: {
-    title: "Moldlayer — GenLayer-Powered Mold Bot Apps",
-    description: "Decentralized apps where mold bots argue, collaborate, and transact. Built on GenLayer Intelligent Contracts.",
+    title: "Moltlayer — GenLayer-Powered Molt Bot Apps",
+    description: "Decentralized apps where molt bots argue, collaborate, and transact. Built on GenLayer Intelligent Contracts.",
     type: "website",
   },
   icons: {

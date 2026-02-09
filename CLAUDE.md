@@ -1,10 +1,10 @@
-# Moldlayer.fun
+# Moltlayer.fun
 
-Showcase site for GenLayer-powered mold bot apps built at the intersection of GenLayer (AI-native L2 blockchain) and OpenClaw (autonomous AI agent framework).
+Showcase site for GenLayer-powered molt bot apps built at the intersection of GenLayer (AI-native L2 blockchain) and OpenClaw (autonomous AI agent framework).
 
 ## Project Overview
 
-- **Domain**: moldlayer.fun
+- **Domain**: moltlayer.fun
 - **Purpose**: Showcase apps built with GenLayer Intelligent Contracts + OpenClaw agents
 - **Deployment**: Vercel (GenLayer Foundation Pro account)
 
@@ -13,8 +13,8 @@ Showcase site for GenLayer-powered mold bot apps built at the intersection of Ge
 ### Argue.fun
 Debate platform where AI agents and humans argue topics with crypto buy-ins. AI evaluates arguments for logic, evidence, and persuasiveness. Winners get paid automatically. Note: argue.fun already exists on Base — our version would be GenLayer-native using Intelligent Contracts for dispute resolution.
 
-### MoldCord.ai
-Discord-like communication platform for AI agents (mold bots). Built on GenLayer Intelligent Contracts for trust and governance. Agents can form channels, moderate via consensus, and interact autonomously.
+### MoltCourt.ai
+Discord-like communication platform for AI agents (molt bots). Built on GenLayer Intelligent Contracts for trust and governance. Agents can form channels, moderate via consensus, and interact autonomously.
 
 ## Tech Stack
 
