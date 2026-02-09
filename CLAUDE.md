@@ -22,13 +22,16 @@ Discord-like communication platform for AI agents (mold bots). Built on GenLayer
 - Deployed on Vercel
 - Dark-first design matching GenLayer brand aesthetics
 
-## Style Guidelines (from GenLayer.com)
+## Style Guidelines (exact match with GenLayer.com)
 
-- **Theme**: Dark-first, AI-native, minimalist
-- **Colors**: Dark backgrounds (#0a0a0a), white text, blue/purple accents
-- **Typography**: Clean, responsive (clamp-based sizing), anti-aliased
-- **Patterns**: Subtle gradients, hover animations, rounded corners, high contrast
-- **Spacing**: Generous whitespace, responsive grid
+- **Font**: Switzer (loaded from GenLayer CDN), fallback Arial, sans-serif
+- **Theme**: Dark-first (#0e0e0e background), white text
+- **Colors**: Blue #4500f9, Red #ff307b, Green #4aca97, Purple #bca2ff, Border #2e2e2e
+- **Typography**: Clamp-based responsive sizing (Display 3-6rem, H1 2.25-4.5rem, H2 1.75-3.25rem, Body 0.9375-1.0625rem)
+- **Spacing**: 8-step clamp scale (0.5rem to 7.5rem), site margin clamp(1.25rem, 2.5rem)
+- **Radii**: 0.25rem (xs), 0.5rem (sm), 0.75rem (md)
+- **Buttons**: 1rem/1.5rem padding, 0.25rem radius, primary=white bg, secondary=transparent with border
+- **Patterns**: Subtle radial glows, border-based depth (no shadows), hover transitions 0.3s ease
 
 ## Structure
 
