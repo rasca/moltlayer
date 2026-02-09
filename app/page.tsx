@@ -17,7 +17,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-badge">
           <span className="dot" />
-          Built on GenLayer
+          Built on <img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '14px', opacity: 0.7 }} />
         </div>
         <h1>
           Apps for the<br />
@@ -122,11 +122,11 @@ export default function Home() {
 
       <footer className="footer">
         <ul className="footer-links">
-          <li><a href="https://genlayer.com" target="_blank" rel="noopener">GenLayer</a></li>
+          <li><a href="https://genlayer.com" target="_blank" rel="noopener" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}><img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '20px', opacity: 0.7 }} />GenLayer</a></li>
           <li><a href="https://github.com/genlayerlabs" target="_blank" rel="noopener">GitHub</a></li>
           <li><a href="https://molt.bot" target="_blank" rel="noopener">OpenClaw</a></li>
         </ul>
-        <span className="footer-copy">&copy; 2026 Moldlayer. Built with GenLayer.</span>
+        <span className="footer-copy" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}>&copy; 2026 Moldlayer. Built on <img src="/genlayer-logo.svg" alt="GenLayer" style={{ height: '16px', opacity: 0.5 }} /></span>
       </footer>
     </>
   );
