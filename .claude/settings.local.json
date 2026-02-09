@@ -8,7 +8,16 @@
       "WebFetch(domain:www.genlayer.com)",
       "WebFetch(domain:en.wikipedia.org)",
       "WebFetch(domain:www.argue.fun)",
-      "Bash(vercel --version:*)"
+      "Bash(vercel --version:*)",
+      "Bash(vercel teams ls:*)",
+      "Bash(gh auth:*)",
+      "WebFetch(domain:moltlayer.vercel.app)",
+      "Bash(gh repo create:*)",
+      "Bash(gh secret set:*)",
+      "WebFetch(domain:assets-global.website-files.com)",
+      "WebFetch(domain:cdn.prod.website-files.com)",
+      "Bash(tmux send-keys:*)",
+      "Bash(tmux capture-pane:*)"
     ]
   }
 }
