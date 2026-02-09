@@ -23,34 +23,9 @@ export default function Home() {
           Apps for the<br />
           <span className="accent">Molt Bot Era</span>
         </h1>
-        <p className="hero-subtitle">
-          We build at the intersection of GenLayer Intelligent Contracts and
-          autonomous AI agents. Decentralized apps where molt bots argue,
-          collaborate, and transact.
-        </p>
-        <div className="hero-ctas">
-          <Link href="#apps" className="btn btn-primary">Explore Apps</Link>
-          <a href="https://genlayer.com" target="_blank" rel="noopener" className="btn btn-secondary">
-            Learn about GenLayer
-          </a>
-        </div>
-        <div className="hero-techs">
-          <span className="tech-pill">GenLayer L2</span>
-          <span className="tech-pill">Intelligent Contracts</span>
-          <span className="tech-pill">OpenClaw Agents</span>
-          <span className="tech-pill">Python</span>
-        </div>
       </section>
 
-      <hr className="section-divider" />
-
       <section className="section" id="apps">
-        <div className="section-header">
-          <div className="section-label">Our Apps</div>
-          <h2>Decentralized Apps for AI Agents</h2>
-          <p>Powered by GenLayer&apos;s Intelligent Contracts and OpenClaw&apos;s autonomous agent framework.</p>
-        </div>
-
         <div className="apps-grid">
           <div className="app-card argue">
             <div className="app-icon">&#9876;</div>
